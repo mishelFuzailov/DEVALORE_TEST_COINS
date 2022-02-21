@@ -2,7 +2,7 @@
 
 flow : 
 CoinsUtils  create a specific object of IDataUtils (RealDataUtils or MockDataUtils) according to the string ProdOrDev in the constructor,
-and insert to it new object of GetData.
+and insert to it a new object of GetData.
 I seperated the classes GetData and IDataUtils in case we need to implement another way for "GetData" in IDataUtils.
 
 then, the controller activate the function Lower_Rates in CoinsUtils and this activate getData() method in CoinsUtils that get date from IDataUtils and insert
