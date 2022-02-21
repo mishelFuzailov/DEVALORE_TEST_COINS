@@ -13,7 +13,7 @@ namespace DEVALORE_TEST_COINS.Controllers
         CoinsUtils cu;
         public CoinsController() {
             string ProdOrDev = "Prod";
-            this.cu = new CoinsUtils();
+            this.cu = new CoinsUtils(ProdOrDev);
         }
 
         [HttpGet]
