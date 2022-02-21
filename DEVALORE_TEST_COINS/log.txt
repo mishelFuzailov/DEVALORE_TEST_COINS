@@ -1,0 +1,4 @@
+Log Entry : 12:31:03 PM Monday, February 21, 2022
+Rate Value: 34
+Num of coins returned: 91
+-------------------------------
